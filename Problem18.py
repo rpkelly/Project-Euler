@@ -9,11 +9,6 @@ ndx = 0
 while ndx < len(lists):
 	lists[ndx].remove('')
 	ndx += 1
-ndx = 0
-while ndx < len(lists):
-	for x in lists[ndx]:
-		x = int(x)
-	ndx += 1
 
 ndx = len(lists) - 2
 
